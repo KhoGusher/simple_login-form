@@ -27,6 +27,10 @@ export default function SignUp() {
         event.preventDefault();
         setIsLoading(true);
 
+        alert(`${fullName}, ${email}, ${password}, ${confirmPassword}, ${phoneNumber}`);
+
+        setIsLoading(false);
+
         // API call to register user
         // await doRequest();
     };

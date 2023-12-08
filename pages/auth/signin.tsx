@@ -16,6 +16,10 @@ export default function Signin() {
     // some API call to your API
     // await doRequest();  hooks to come
     console.log(email, password);
+
+    alert(`${email}, ${password}`);
+
+    setIsLoading(false);
   };
 
 
